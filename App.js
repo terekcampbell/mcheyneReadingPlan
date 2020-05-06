@@ -5,6 +5,7 @@ import moment from 'moment';
 
 export default function App() {
     const dayOfYear = moment().dayOfYear();
+    const weekOfYear = moment().week();
     return (
         <View
             style={{
@@ -24,6 +25,21 @@ export default function App() {
                     fontSize: 80,
                 }}>
                 {dayOfYear}
+            </Text>
+
+            <Text
+                style={{
+                    fontSize: 20,
+                    marginTop: '20%',
+                }}>
+                Week Number Of Year:
+            </Text>
+
+            <Text
+                style={{
+                    fontSize: 40,
+                }}>
+                {weekOfYear}
             </Text>
         </View>
     );
