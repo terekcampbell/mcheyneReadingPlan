@@ -1,19 +1,30 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+/*This is an example of React Native Get Current Date Time*/
+import React from "react";
+import { View, Text } from 'react-native';
+import moment from 'moment';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
-}
+    const dayOfYear = moment().dayOfYear();
+    return (
+        <View
+            style={{
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}>
+            <Text
+                style={{
+                    fontSize: 20,
+                }}>
+                Day Number Of Year:
+            </Text>
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+            <Text
+                style={{
+                    fontSize: 80,
+                }}>
+                {dayOfYear}
+            </Text>
+        </View>
+    );
+}
