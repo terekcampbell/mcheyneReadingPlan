@@ -1,17 +1,15 @@
 {
   "expo": {
-    "name": "DayNumberOfYear",
-    "slug": "DayNumberOfYear",
+    "name": "Day Number Of Year",
+    "slug": "day-number-of-year",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/dayOfYear.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/dayOfYear.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,6 +21,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.campbell.daynumberofyear",
+      "versionCode": 1
     }
   }
 }

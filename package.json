@@ -10,6 +10,7 @@
   "dependencies": {
     "@expo/vector-icons": "^10.0.0",
     "@react-navigation/material-top-tabs": "^5.1.15",
+    "@react-navigation/native": "^5.2.4",
     "expo": "~37.0.3",
     "moment": "^2.25.3",
     "react": "~16.9.0",
