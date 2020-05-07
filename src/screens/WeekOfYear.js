@@ -1,21 +1,8 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { View, Text } from 'react-native';
 import moment from 'moment';
 
-// const TabIcon = (props) => (
-//     <Ionicons
-//         name={'md-apps'}
-//         size={35}
-//         color={props.focused ? 'grey' : 'darkgrey'}
-//     />
-// );
-
 export default function ScreenTwo() {
-
-    // static navigationOptions = {
-    //     tabBarIcon: TabIcon
-    // };
 
     const weekOfYear = moment().week();
     return (
@@ -25,7 +12,6 @@ export default function ScreenTwo() {
                 justifyContent: 'center',
                 alignItems: 'center',
                 backgroundColor: '#76C4AE',
-                // backgroundColor: '#7CE0F9',
             }}>
             <Text
                 style={{
@@ -43,11 +29,3 @@ export default function ScreenTwo() {
         </View>
     );
 }
-
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1,
-//         alignItems: 'center',
-//         justifyContent: 'center',
-//     },
-// });

@@ -1,22 +1,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-// import { Ionicons } from '@expo/vector-icons';
 import moment from 'moment';
 
 
-// const TabIcon = (props) => (
-//     <Ionicons
-//         name={'md-home'}
-//         size={35}
-//         color={props.focused ? 'grey' : 'darkgrey'}
-//     />
-// );
-
 export default function ScreenOne() {
-
-    // static navigationOptions = {
-    //     tabBarIcon: TabIcon
-    // };
 
     const dayOfYear = moment().dayOfYear();
     return (
@@ -25,7 +12,6 @@ export default function ScreenOne() {
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
-                // backgroundColor: '#76C4AE',
                 backgroundColor: '#7CE0F9',
             }}>
             <Text
@@ -44,11 +30,3 @@ export default function ScreenOne() {
         </View>
     );
 }
-
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1,
-//         alignItems: 'center',
-//         justifyContent: 'center',
-//     },
-// });
