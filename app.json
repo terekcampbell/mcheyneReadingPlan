@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "Day Number Of Year",
-    "slug": "day-number-of-year",
+    "name": "Mcheyne Reading Plan",
+    "slug": "mcheyne-reading-plan",
     "platforms": [
       "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/dayOfYear.png",
+    "icon": "./assets/mcheyne.png",
     "splash": {
-      "image": "./assets/dayOfYear.png",
+      "image": "./assets/mcheyne.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +23,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.campbell.daynumberofyear",
+      "package": "com.campbell.mcheynereadingplan",
       "versionCode": 1
     }
   }

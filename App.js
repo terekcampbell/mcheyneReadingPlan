@@ -1,10 +1,9 @@
 import React from "react";
-import { createTopTabNavigator } from 'react-navigation';
-import TabNavigator from "./src/navigation/TabNavigator";
+import TodaysReading from "./src/screens/TodaysReading";
 
 
 export default function App() {
     return (
-        <TabNavigator/>
+        <TodaysReading/>
     );
 }
