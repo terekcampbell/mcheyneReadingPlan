@@ -3,7 +3,9 @@
     "name": "Mcheyne Reading Plan",
     "slug": "mcheyne-reading-plan",
     "platforms": [
-      "android"
+      "ios",
+      "android",
+      "web"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +22,7 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.campbell.mcheynereadingplan",
       "supportsTablet": true
     },
     "android": {
